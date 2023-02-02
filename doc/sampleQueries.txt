@@ -1,0 +1,10 @@
+
+
+# @Give ISIN, @Get Yahoo Finance Symbol and Basic Quotes info
+https://query1.finance.yahoo.com/v1/finance/search?q=LU0880133367&newsCount=0&listsCount=0
+
+# @Given Yahoo Symbol, @Get Quote info including Price(ask,bid,price,PrevClose)
+https://query1.finance.yahoo.com/v7/finance/quote?symbols=0P0001JF2Y.F
+
+# Funds' Top Holdings
+https://query2.finance.yahoo.com/v10/finance/quoteSummary/0P0000KXN4.SI?modules=topHoldings

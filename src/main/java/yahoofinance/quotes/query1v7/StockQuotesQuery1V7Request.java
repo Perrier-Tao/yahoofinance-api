@@ -3,13 +3,12 @@ package yahoofinance.quotes.query1v7;
 import com.fasterxml.jackson.databind.JsonNode;
 import yahoofinance.Stock;
 import yahoofinance.Utils;
-import yahoofinance.exchanges.ExchangeTimeZone;
+import yahoofinance.fi.ExchangeTimeZone;
 import yahoofinance.quotes.stock.StockDividend;
 import yahoofinance.quotes.stock.StockQuote;
 import yahoofinance.quotes.stock.StockStats;
 
 import java.math.BigDecimal;
-import java.util.Arrays;
 import java.util.TimeZone;
 
 /**

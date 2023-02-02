@@ -2,9 +2,11 @@ package yahoofinance;
 
 import org.junit.Before;
 import org.junit.Test;
+import yahoofinance.mock.MockedServersTest;
+import yahoofinance.Stock;
+import yahoofinance.YahooFinance;
 import yahoofinance.histquotes.HistoricalQuote;
 import yahoofinance.histquotes.Interval;
-import yahoofinance.mock.MockedServersTest;
 
 import java.io.IOException;
 import java.math.BigDecimal;

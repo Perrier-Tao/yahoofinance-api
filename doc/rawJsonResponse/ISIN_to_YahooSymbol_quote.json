@@ -1,0 +1,34 @@
+{
+  "explains": [],
+  "count": 1,
+  "quotes": [
+    {
+      "exchange": "SES",
+      "shortname": "UBS (Lux) Equity Fund - China O",
+      "quoteType": "MUTUALFUND",
+      "symbol": "0P0000Y4WK.SI",
+      "index": "quotes",
+      "score": 20001.0,
+      "typeDisp": "Fund",
+      "longname": "UBS (Lux) Equity Fund - China Opportunity (USD) P SGD acc",
+      "exchDisp": "Singapore",
+      "isYahooFinance": true
+    }
+  ],
+  "news": [],
+  "nav": [],
+  "lists": [],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 28,
+  "timeTakenForQuotes": 421,
+  "timeTakenForNews": 0,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0,
+  "url": "https://query1.finance.yahoo.com/v1/finance/search?q=LU0880133367&newsCount=0&listsCount=0"
+}

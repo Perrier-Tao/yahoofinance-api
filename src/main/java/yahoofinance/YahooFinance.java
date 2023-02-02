@@ -43,7 +43,8 @@ import yahoofinance.quotes.query1v7.StockQuotesQuery1V7Request;
  * @version     %I%, %G%
  */
 public class YahooFinance {
-    
+
+    public static final String URL_SEARCH = "https://query1.finance.yahoo.com/v1/finance/search?q=${isin}&newsCount=0&listsCount=0";
     public static final String QUOTES_BASE_URL = System.getProperty("yahoofinance.baseurl.quotes", "http://download.finance.yahoo.com/d/quotes.csv");
     public static final String QUOTES_QUERY1V7_BASE_URL = System.getProperty("yahoofinance.baseurl.quotesquery1v7", "https://query1.finance.yahoo.com/v7/finance/quote");
     public static final String QUOTES_QUERY1V7_ENABLED = System.getProperty("yahoofinance.quotesquery1v7.enabled", "true");
@@ -52,6 +53,7 @@ public class YahooFinance {
     public static final String HISTQUOTES2_BASE_URL = System.getProperty("yahoofinance.baseurl.histquotes2", "https://query1.finance.yahoo.com/v7/finance/download/");
     public static final String HISTQUOTES_QUERY2V8_BASE_URL = System.getProperty("yahoofinance.baseurl.histquotesquery2v8", "https://query2.finance.yahoo.com/v8/finance/chart/");
     public static final String HISTQUOTES2_SCRAPE_URL = System.getProperty("yahoofinance.scrapeurl.histquotes2", "https://finance.yahoo.com/quote/%5EGSPC/options");
+    public static final String QUOTES_SUMMARY = System.getProperty("yahoofinance.quotesSummary", "https://query2.finance.yahoo.com/v10/finance/quoteSummary/${symbol}");
     public static final String HISTQUOTES2_CRUMB_URL = System.getProperty("yahoofinance.crumburl.histquotes2", "https://query1.finance.yahoo.com/v1/test/getcrumb");
     public static final String HISTQUOTES2_CRUMB = System.getProperty("yahoofinance.crumb", "");
     public static final String HISTQUOTES2_COOKIE = System.getProperty("yahoofinance.cookie", "");

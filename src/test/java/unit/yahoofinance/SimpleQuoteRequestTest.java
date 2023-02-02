@@ -3,6 +3,8 @@ package yahoofinance;
 import org.junit.Test;
 
 import yahoofinance.mock.MockedServersTest;
+import yahoofinance.Stock;
+import yahoofinance.YahooFinance;
 
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -16,7 +18,6 @@ import static org.junit.Assert.*;
  * @author Stijn Strickx
  */
 public class SimpleQuoteRequestTest extends MockedServersTest {
-
     @Test
     public void europeStockQuoteTest() throws IOException {
         Stock stock = YahooFinance.get("AIR.PA");

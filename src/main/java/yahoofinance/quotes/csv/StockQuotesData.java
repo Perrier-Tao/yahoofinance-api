@@ -2,7 +2,7 @@ package yahoofinance.quotes.csv;
 
 import yahoofinance.Stock;
 import yahoofinance.Utils;
-import yahoofinance.exchanges.ExchangeTimeZone;
+import yahoofinance.fi.ExchangeTimeZone;
 import yahoofinance.quotes.stock.StockDividend;
 import yahoofinance.quotes.stock.StockQuote;
 import yahoofinance.quotes.stock.StockStats;

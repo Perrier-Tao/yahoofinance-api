@@ -1,5 +1,5 @@
 
-package yahoofinance.exchanges;
+package yahoofinance.fi;
 
 import java.util.HashMap;
 import java.util.Map;
